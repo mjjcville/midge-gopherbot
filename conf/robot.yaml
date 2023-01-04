@@ -123,6 +123,9 @@ ExternalPlugins:
     - Name: GOPHER_SETUP_TOKEN
       Value: {{ env "GOPHER_SETUP_TOKEN" }}
 {{ end }}
+  "dieroll":
+    Description: Dieroll plugin
+    Path: plugins/dieroll.rb
 #   "weather":
 #     Description: A plugin that uses OpenWeatherMap to report the weather
 #     Path: plugins/weather.rb
